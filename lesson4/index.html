@@ -1,41 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Main | Cats and dogs</title>
     <link rel="stylesheet" href="css/style.css">
     <style>
-        body { background: url(img/bg.jpg); color: black;
+        body { background: url(img/bg.jpg);
         cursor:-webkit-grab; }
     </style>
 </head>
+
 <body>
-    <h1>Сайт о котиках и собачках</h1>
-    <h2>Котики</h2>
     <table>
         <tr>
-            <td><p class="el1"><img src="img/cat1.jpg" alt="" width="300"></p></td>
-            <td><p class="el2"><img src="img/cat2.jpg" alt="" width="290"></p></td>
-            <td><p class="el3"><img src="img/cat3.jpeg" alt="" width="280"></p></td>
+            <td colspan="3">
+                <div class="zagolovok">Сайт о котиках и собачках</div>
+            </td>
         </tr>
         <tr>
-            <td><p class="el4">Барсик</p></td>
-            <td><p class="el5">Тотошка</p></td>
-            <td><p class="el6">Мурзик</p></td>
+            <div><td colspan="3" class="podzagolovok">Котики</td></div>
+        </tr>
+        <tr>
+            <td>
+                <a href="cats.html">
+                    <img src="img/cat1.jpg" alt="">
+                </a>
+            </td>
+            <td>
+                <a href="cats.html">
+                    <img src="img/cat2.jpg" alt="">
+                </a>
+            </td>
+            <td>
+                <a href="cats.html">
+                    <img src="img/cat3.jpeg" alt="">
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td class="names">Барсик</td>
+            <td class="names">Мурзик</td>
+            <td class="names">Тотошка</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="podzagolovok">Собачки</td>
+        </tr>
+        <tr>
+            <td><img src="img/dog1.jpg" alt=""></td>
+            <td><img src="img/dog2.jpg" alt=""></td>
+            <td><img src="img/dog3.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td class="names">Бобик</td>
+            <td class="names">Шарик</td>
+            <td class="names">Жулик</td>
         </tr>
     </table>
-    <h2>Собачки</h2>
-    <table>
-        <tr>
-            <td><p class="el1"><img src="img/dog1.jpg" alt="" width="300"></p></td>
-            <td><p class="el2"><img src="img/dog2.jpg" alt="" width="290"></p></td>
-            <td><p class="el3"><img src="img/dog3.jpg" alt="" width="280"></p></td>
-        </tr>
-        <tr>
-            <td><p class="el4">Бобик</p></td>
-            <td><p class="el5">Шарик</p></td>
-            <td><p class="el6">Жулик</p></td>
-        </tr>
-    </table>    
 </body>
+
 </html>
