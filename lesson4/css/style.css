@@ -6,9 +6,12 @@ table {
 td {
     text-align: center;
 }
+td img:hover {
+    outline: 5px solid green;
+    display: block;
+}
 img {
     width: 300px;
-    border: 4px solid green;
 }
 .zagolovok {
     background-color: LightSeaGreen;
@@ -21,7 +24,7 @@ img {
     font-weight: bold;
 }
 .names {
-    background-color: SlateGrey;
+    background-color: slategray;
     border: 2px solid black;
     padding: 10px;
     font-style: italic;
