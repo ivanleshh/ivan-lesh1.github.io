@@ -45,7 +45,7 @@ ul {
     color: white;
     list-style-type: none;
 }
-b {
+li > b {
     color: Maroon;
 }
 
