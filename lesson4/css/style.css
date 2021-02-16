@@ -6,14 +6,26 @@ table {
 td {
     text-align: center;
 }
-td img:hover {
-    outline: 5px solid green;
+tr td:nth-child(n+1) p {
+    background-color: slategray;
+    border: 2px solid black;
+    padding: 10px;
+    font-style: italic;
+    color: whitesmoke;
+    margin: 0 auto;
+}
+td:first-child img:hover {
+    outline: 5px solid red;
+    display: block;
+}
+td:nth-child(n+2) img:hover {
+    outline: 5px solid lightgreen;
     display: block;
 }
 img {
     width: 300px;
 }
-.zagolovok {
+div {
     background-color: LightSeaGreen;
     padding: 25px;
     margin: -20px -20px 10px;
@@ -23,14 +35,7 @@ img {
     font-style: italic;
     font-weight: bold;
 }
-.names {
-    background-color: slategray;
-    border: 2px solid black;
-    padding: 10px;
-    font-style: italic;
-    color: whitesmoke;
-}
-.podzagolovok {
+tr:nth-child(3n-4) td {
     border: 2px dashed CadetBlue;
     padding: 10px;
     background-color: LightCyan;
