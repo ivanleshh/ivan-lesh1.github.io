@@ -1,7 +1,7 @@
 table {
    border-collapse: separate;
    border-spacing: 20px;
-   margin: 0 auto;
+   margin: -155px auto;
 }
 td {
     text-align: center;
@@ -41,3 +41,11 @@ tr:nth-child(3n-4) td {
     background-color: LightCyan;
     font-size: 15pt;
 }
+ul {
+    color: white;
+    list-style-type: none;
+}
+b {
+    color: Maroon;
+}
+
