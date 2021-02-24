@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+ul {
+    list-style-type: none;
+}
+.main {
+    background: silver;
+    margin: 0 auto;
+    width: 100%;
+    border: black solid;
+    height: 500px;
+}
+.dad1 {
+    background: lime;
+    border: orange solid;
+    width: 19%;
+    margin: 5px;
+    height: 98%;
+}
+.dad2 {
+    background: lime;
+    border: orange solid;
+    float: right;
+    width: 79%;
+    margin: 5px;
+    height: 98%;
+}
+li {
+    border: solid red;
+    background: magenta; 
+    margin: 4%;
+    width: 128%;
+    height: 6%;
+    float: right;
+}
+
+
+
