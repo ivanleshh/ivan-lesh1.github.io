@@ -8,21 +8,21 @@
 ul {
     list-style-type: none;
 }
-.main {
+.header {
     background: silver;
     margin: 0 auto;
     width: 100%;
     border: black solid;
     height: 500px;
 }
-.dad1 {
+.main1 {
     background: lime;
     border: orange solid;
     width: 19%;
     margin: 5px;
     height: 98%;
 }
-.dad2 {
+.main2 {
     background: lime;
     border: orange solid;
     float: right;
