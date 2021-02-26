@@ -1,13 +1,16 @@
-*{
+* {
     box-sizing: border-box;
 }
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
 ul {
     list-style-type: none;
 }
+
 .header {
     background: silver;
     margin: 0 auto;
@@ -15,6 +18,7 @@ ul {
     border: black solid;
     height: 500px;
 }
+
 .main1 {
     background: lime;
     border: orange solid;
@@ -22,6 +26,7 @@ ul {
     margin: 5px;
     height: 98%;
 }
+
 .main2 {
     background: lime;
     border: orange solid;
@@ -30,14 +35,12 @@ ul {
     margin: 5px;
     height: 98%;
 }
+
 li {
     border: solid red;
-    background: magenta; 
+    background: magenta;
     margin: 4%;
     width: 128%;
     height: 6%;
     float: right;
 }
-
-
-
