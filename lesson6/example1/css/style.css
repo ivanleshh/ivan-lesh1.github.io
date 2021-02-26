@@ -5,7 +5,7 @@ body {
     color: black;
     font-weight: bold;
 }
-.banner {
+.header {
     background: silver;
     margin: 0 auto;
     width: 100%;
@@ -13,15 +13,15 @@ body {
     font-size: 25px;
     padding: 5px;
 }
-.information {
+.main {
     background: grey;
-    margin: 0 auto;
-    width: 80%;
     text-align: center;
+    width: 80%;
     font-size: 15px;
     padding: 10px;
     text-indent: 50px;
     line-height: 25px;
+    margin: 0 auto;
 }
 .l-menu {
     background: lime;
@@ -45,7 +45,7 @@ body {
     width: 1000px;
     margin: 0 auto;
 }
-.bottom-page {
+.footer {
     background: silver;
     margin: 0 auto;
     text-align: center;
