@@ -100,12 +100,12 @@ body {
 
 .center-left-main1 {
     background: url(img/reklama.jpg) no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .center-left-main2 {
     background: url(img/reklama2.jpg) no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .container2 {
