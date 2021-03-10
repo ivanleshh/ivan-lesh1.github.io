@@ -2,8 +2,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background: url(img/fon.png) no-repeat;
+}
+
 .container {
-    border: 4px solid red;
     margin: 0 auto;
     height: 885px;
     width: 1100px;
@@ -12,23 +15,33 @@
 }
 
 .header {
-    border: 4px solid red;
-    margin: 5px;
+    background: url(img/top.png) no-repeat;
+    background-size: 100%;
+    margin: 0 5px;
     width: 99.1%;
     height: 8%;
     display: flex;
     justify-content: space-between;
+    color: white;
+    text-align: center;
+    font-size: 115%;
 }
 
 .left-header {
-    border: 4px solid red;
     margin: 5px;
     width: 17%;
     height: 83%;
 }
 
+.left-header::first-letter {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    background-color: white;
+    color: teal;
+    border-radius: 25%;
+}
+
 .right-header {
-    border: 4px solid red;
     margin: 5px;
     width: 50%;
     height: 82%;
@@ -36,32 +49,34 @@
 }
 
 .right-header1 {
-    border: 4px solid red;
     margin: 5px;
     height: 80%;
     width: 18.1%;
 }
+
 .main {
-    border: 4px solid red;
-    margin: 5px;
+    margin: 0 5px;
     width: 99.1%;
     height: 90.4%;
     display: flex;
 }
 
 .top-left-main {
-    border: 4px solid red;
     margin: 5px;
     width: 96%;
-    height: 40.2%;
+    height: 35%;
     display: flex;
     flex-direction: column;
 }
 
+.top-left-main1:hover {
+    background: lightgray;
+    outline: lightgray 1px solid;
+}
+
 .right-main {
-    border: 4px solid red;
-    margin: 5px;
-    width: 74.5%;
+    margin: 5px 0;
+    width: 78.5%;
     height: 98.8%;
     display: flex;
     flex-wrap: wrap;
@@ -70,77 +85,95 @@
 }
 
 .top-left-main1 {
-    border: 4px solid red;
     margin: 5px;
     width: 95.5%;
     height: 11%;
+    color: teal;
 }
 
-.center-left-main {
-    border: 4px solid red;
+.container2>p {
     width: 96%;
     height: 28.7%;
-    margin: 0 5px 5px;
+    margin: 10px;
     align-self: flex-end;
 }
 
+.center-left-main1 {
+    background: url(img/reklama.jpg) no-repeat;
+    background-size: contain;
+}
+
+.center-left-main2 {
+    background: url(img/reklama2.jpg) no-repeat;
+    background-size: contain;
+}
+
 .container2 {
-    border: 4px solid red;
-    margin: 5px;
+    margin: 0 5px;
     height: 98.8%;
-    width: 24%;
+    width: 20%;
     display: flex;
     flex-direction: column;
-    align-items: space-between;
 }
 
 .right-main-header {
-    border: 4px solid red;
     margin: 5px;
     width: 98.7%;
     height: 4.35%;
+    background-color: lightgrey;
+    font-size: 125%;
+    color: teal;
 }
 
 .avatar {
-    border: 4px solid red;
     margin: 0 5px;
     width: 30%;
     height: 55%;
+    background: url(img/avatar.jpg) no-repeat;
+    background-size: cover;
 }
 
 .container3 {
-    border: 4px solid red;
     height: 55%;
     width: 68%;
     display: flex;
     flex-direction: column;
-    align-items: space-between;
     margin-right: 5px;
 }
 
 .right-top-avatar {
-    border: 4px solid red;
     margin: 5px;
     width: 98%;
     height: 8%;
+    font-size: 125%;
+    color: teal;
 }
 
 .right-center-avatar {
-    border: 4px solid red;
     width: 98%;
     height: 40%;
     margin: 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right-center-avatar1 {
+    width: 41%;
+    height: 13%;
+    margin: 5px;
+    color: teal;
 }
 
 .right-top-photos {
-    border: 4px solid red;
     margin: 5px;
     width: 98%;
     height: 8%;
+    color: teal;
+    font-size: 125%;
+    background-color: lightgrey;
 }
 
 .img-right-avatar {
-    border: 4px solid red;
     margin: 0 5px;
     width: 98%;
     height: 30%;
@@ -148,55 +181,61 @@
     justify-content: space-evenly;
 }
 
-.bottom-right-avatar {
-    border: 4px solid red;
-    margin: 5px;
-    width: 98%;
-    height: 8%;
-}
-
-.img-right-avatar1 {
-    border: 4px solid red;
+.img-right-avatar>div {
     margin: 5px 0;
     width: 32%;
     height: 91%;
 }
 
+.img-right-avatar1 {
+    background: url(img/gallery1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.img-right-avatar2 {
+    background: url(img/gallery2.jpg) no-repeat;
+    background-size: cover;
+}
+
+.img-right-avatar3 {
+    background: url(img/gallery3.jpg) no-repeat;
+    background-size: cover;
+}
+
 .bottom-left-avatar {
-    border: 4px solid red;
     margin: 5px;
     width: 30%;
     height: 8.1%;
+    color: teal;
 }
 
 .top-friends {
-    border: 4px solid red;
     margin: 0 5px;
     width: 30%;
     height: 5.5%;
+    color: teal;
+    font-size: 125%;
+    background-color: lightgrey;
 }
 
 .bottom-img {
-    border: 4px solid red;
     margin: 5px 5px 5px 0;
     width: 68%;
     height: 4.35%;
 }
 
 .right-bottom-img {
-    border: 4px solid red;
     margin: -3.65% 5px 5px 0;
     width: 68%;
     height: 33.2%;
+    background: url(img/stena1.jpg) no-repeat;
+    background-size: cover;
 }
 
 .friends {
-    border: 4px solid red;
     margin: -23.1% 5px 5px;
     width: 30%;
     height: 23.3%;
+    background: url(img/frends.jpg) no-repeat;
+    background-size: cover;
 }
-
-
-
-
