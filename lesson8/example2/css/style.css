@@ -91,7 +91,7 @@ body {
     color: teal;
 }
 
-.container2 > p {
+.container2 > span {
     width: 96%;
     height: 28.7%;
     margin: 10px;
