@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background: url(img/fon.png) no-repeat;
-}
-
 .container {
     margin: 0 auto;
     height: 885px;
@@ -28,21 +24,21 @@ body {
 }
 
 .left-header {
-    margin: 5px;
+    margin: 1.5%;
     width: 17%;
     height: 83%;
 }
 
 .left-header::first-letter {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 150%;
+    font-size: 165%;
     background-color: white;
     color: teal;
     border-radius: 25%;
 }
 
 .right-header {
-    margin: 5px;
+    margin: 1.5%;
     width: 50%;
     height: 82%;
     display: flex;
@@ -69,9 +65,13 @@ body {
     flex-direction: column;
 }
 
-.top-left-main1:hover {
+a:hover {
     background: lightgray;
-    outline: lightgray 1px solid;
+}
+
+a {
+    text-decoration: none;
+    color: teal;
 }
 
 .right-main {
@@ -85,13 +85,17 @@ body {
 }
 
 .top-left-main1 {
-    margin: 5px;
     width: 95.5%;
     height: 11%;
-    color: teal;
+    margin: 4.5%;
 }
 
-.container2 > span {
+.top-left-main1>a {
+    color: teal;
+    text-decoration: none;
+}
+
+.container2>span {
     width: 96%;
     height: 28.7%;
     margin: 10px;
