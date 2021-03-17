@@ -27,6 +27,12 @@
     margin: 1.5%;
     width: 17%;
     height: 83%;
+    animation-name: myanimation2;
+    transition-duration: 2s;
+}
+
+.left-header:hover {
+    transform: rotate(-20deg);
 }
 
 .left-header::first-letter {
@@ -40,14 +46,26 @@
 .right-header {
     margin: 1.5%;
     width: 50%;
-    height: 82%;
+    height: 45%;
     display: flex;
 }
 
 .right-header1 {
-    margin: 5px;
+    margin: 5px 25px;
     height: 80%;
     width: 18.1%;
+    animation: myanimation1 2s ease-out;
+    position: relative;
+}
+
+.right-header>a:hover {
+    color: mediumslateblue;
+    transform: rotate(15deg);
+}
+
+.right-header>a {
+    text-decoration: none;
+    color: white;
 }
 
 .main {
@@ -65,13 +83,15 @@
     flex-direction: column;
 }
 
-a:hover {
+.top-left-main>a:hover {
     background: lightgray;
+    transform: scale(1.1, 1.1);
 }
 
-a {
+.top-left-main>a {
     text-decoration: none;
     color: teal;
+    transition-duration: 0.5s;
 }
 
 .right-main {
@@ -88,6 +108,8 @@ a {
     width: 95.5%;
     height: 11%;
     margin: 4.5%;
+    position: relative;
+    animation: myanimation 2s ease;
 }
 
 .top-left-main1>a {
@@ -185,10 +207,10 @@ a {
     justify-content: space-evenly;
 }
 
-.img-right-avatar>div {
+div>div {
     margin: 5px 0;
-    width: 32%;
-    height: 91%;
+    width: 100%;
+    height: 100%;
 }
 
 .img-right-avatar1 {
@@ -242,4 +264,62 @@ a {
     height: 23.3%;
     background: url(img/frends.jpg) no-repeat;
     background-size: cover;
+}
+
+@keyframes myanimation {
+    0% {
+        opacity: 0%;
+        left: -100%;
+    }
+
+    100% {
+        opacity: 100%;
+        left: 0%;
+    }
+}
+
+@keyframes myanimation1 {
+    0% {
+        color: teal;
+        opacity: 0%;
+        top: -100%;
+    }
+
+    50% {
+        top: 20%;
+        opacity: 75%;
+    }
+
+    75% {
+        top: -15%;
+        opacity: 100%;
+    }
+    
+    100% {
+        top: 0%;
+    } 
+}
+
+.block {
+    width: 32%;
+    height: 91%;
+    margin: 0;
+}
+
+.block:hover {
+    transform: scale(1.5, 1.5) translate(20%, -20%);
+    transition-duration: 1s;
+}
+
+.music {
+    height: 70px;
+    width: 550px;
+    margin: 10px;
+}
+
+button {
+    float: right;
+    margin: 5px;
+    border-radius: 30%;
+    border-color: aquamarine;
 }

@@ -6,30 +6,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Udruzey</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/player.css">
 </head>
 
 <body>
+    <script>
+        function play_music() {
+            audio = document.getElementById("audio1");
+            audio.play();
+        }
+
+        function stop_music() {
+            audio = document.getElementById("audio1");
+            audio.pause();
+        }
+
+        function play_video() {
+            video = document.getElementById("video");
+            video.play();
+        }
+
+        function stop_video() {
+            video = document.getElementById("video");
+            video.pause();
+        }
+    </script>
     <div class="container">
         <div class="header">
             <div class="left-header">Удрузей</div>
             <div class="right-header">
-                <div class="right-header1">друзья</div>
-                <div class="right-header1">группы</div>
-                <div class="right-header1">игры</div>
-                <div class="right-header1">помощь</div>
-                <div class="right-header1">выход</div>
+                <a href="">
+                    <div class="right-header1">друзья</div>
+                </a>
+                <a href="">
+                    <div class="right-header1">группы</div>
+                </a>
+                <a href="">
+                    <div class="right-header1">игры</div>
+                </a>
+                <a href="">
+                    <div class="right-header1">помощь</div>
+                </a>
+                <a href="">
+                    <div class="right-header1">выход</div>
+                </a>
             </div>
         </div>
         <div class="main">
             <div class="container2">
                 <div class="top-left-main">
-                    <a href=""><div class="top-left-main1">Моя страница</div></a>
-                    <a href=""><div class="top-left-main1">Мои друзья</div></a>
-                    <a href=""><div class="top-left-main1">Мои фотографии</div></a>
-                    <a href=""><div class="top-left-main1">Мои сообщения</div></a>
-                    <a href=""><div class="top-left-main1">Мои группы</div></a>
-                    <a href=""><div class="top-left-main1">Мои заметки</div></a>
-                    <a href=""><div class="top-left-main1">Мои настройки</div></a>
+                    <a href="">
+                        <div class="top-left-main1">Моя страница</div>
+                    </a>
+                    <a href="">
+                        <div class="top-left-main1">Мои друзья</div>
+                    </a>
+                    <a href="">
+                        <div class="top-left-main1">Мои фотографии</div>
+                    </a>
+                    <a href="">
+                        <div class="top-left-main1">Мои сообщения</div>
+                    </a>
+                    <a href="">
+                        <div class="top-left-main1">Мои группы</div>
+                    </a>
+                    <a href="">
+                        <div class="top-left-main1">Мои заметки</div>
+                    </a>
+                    <a href="">
+                        <div class="top-left-main1">Мои настройки</div>
+                    </a>
                 </div>
                 <span class="center-left-main1"></span>
                 <span class="center-left-main2"></span>
@@ -53,9 +99,15 @@
                     </div>
                     <div class="right-top-photos">Фотографии</div>
                     <div class="img-right-avatar">
-                        <div class="img-right-avatar1"></div>
-                        <div class="img-right-avatar2"></div>
-                        <div class="img-right-avatar3"></div>
+                        <div class="block">
+                            <div class="img-right-avatar1"></div>
+                        </div>
+                        <div class="block">
+                            <div class="img-right-avatar2"></div>
+                        </div>
+                        <div class="block">
+                            <div class="img-right-avatar3"></div>
+                        </div>
                     </div>
                     <div class="right-top-photos">Записи</div>
                 </div>
@@ -64,6 +116,15 @@
                 <div class="top-friends">Друзья</div>
                 <div class="right-bottom-img"></div>
                 <div class="friends"></div>
+                <div class="music"><audio src="audio/audio.mp3" id="audio1" controls></audio>
+                    <button onclick="play_music()">Play music</button>
+                    <button onclick="stop_music()">Stop music</button>
+                </div>
+                <div class="videos"><video id="video" src="video/video3.mp4" width="1125" height="325" muted
+                        autoplay></video>
+                    <button onclick="play_video()">Play video</button>
+                    <button onclick="stop_video()">Stop video</button>
+                </div>
             </div>
         </div>
     </div>
