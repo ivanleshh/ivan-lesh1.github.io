@@ -54,7 +54,7 @@
     margin: 5px 25px;
     height: 80%;
     width: 18.1%;
-    animation: myanimation1 2s ease-out;
+    animation: myanimation1 2s ease;
     position: relative;
 }
 
@@ -285,12 +285,12 @@ div>div {
         top: -100%;
     }
 
-    50% {
+    70% {
         top: 20%;
         opacity: 75%;
     }
 
-    75% {
+    80% {
         top: -15%;
         opacity: 100%;
     }
