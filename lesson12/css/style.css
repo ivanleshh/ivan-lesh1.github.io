@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+header {
+    height: 596px;
+    background-color: #87509c;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo {
+    width: 118px;
+    height: 37px;
+    position: absolute;
+    top: 57px;
+    left: 211px;
+    background: url(img/logo.png);
+}
+
+nav {
+    position: absolute;
+    top: 70px;
+    right: 195px;
+    width: 475px;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li a {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    background-color: #643a79;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 42.2px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #f7f3ea;
+    width: 900px;
+    margin: 239px auto 0;
+    
+}
+
+.button {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    width: 293px;
+    height: 70px;
+    background-color: #eb7d4b;
+    margin: 54px auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1s;
+}
+
+.button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.button:hover  {
+    transform: scale(1.1,1.1);
+    opacity: 75%;
+}
+
+.services {
+    height: 747px;
+    background-color: #17c2a4;
+    position: relative;
+    overflow: hidden;
+}
+
+.title2 {
+    font-size: 40px;
+    line-height: 29px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    margin: 119px 483px 0;
+    width: 480px;
+    text-align: center;
+}
+
+.line {
+    width: 87px;
+    height: 4px;
+    opacity: 0.14;
+    background-color: #000000;
+    margin: 21px 676px 0 677px;
+}
+
+.mini-title {
+    margin: 23px 418px 0 419px;
+    width: 605px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.flag-img {
+    background: url(img/flag.png);
+    position: absolute;
+    left: 246px;
+    bottom: 299px;
+    width: 120px;
+    height: 124px;
+}
+
+.pencil-img {
+    background: url(img/pencil.png);
+    position: absolute;
+    left: 540px;
+    bottom: 297px;
+    width: 90px;
+    height: 131px;
+}
+
+.gears-img {
+    background: url(img/gears.png);
+    position: absolute;
+    left: 776px;
+    bottom: 297px;
+    width: 159px;
+    height: 126px;
+}
+
+.rocket-img {
+    background: url(img/rocket.png);
+    position: absolute;
+    right: 255px;
+    bottom: 297px;
+    width: 95px;
+    height: 134px;
+}
+
+.medium-title1,
+.medium-title2,
+.medium-title3,
+.medium-title4 p {
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.medium-title1 {
+    position: absolute;
+    left: 242px;
+    bottom: 219px;
+}
+
+.medium-title2 {
+    position: absolute;
+    left: 540px;
+    bottom: 219px;
+}
+
+.medium-title3 {
+    position: absolute;
+    left: 778px;
+    bottom: 219px;
+}
+
+.medium-title4 {
+    position: absolute;
+    right: 209px;
+    bottom: 219px;
+}
+
+.flag-title,
+.pencil-title,
+.gears-title,
+.rocket-title p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.flag-title {
+    position: absolute;
+    left: 204px;
+    bottom: 128px;
+    width: 196px;
+    text-align: center;
+}
+
+.pencil-title {
+    position: absolute;
+    left: 493px;
+    bottom: 128px;
+    width: 196px;
+    text-align: center;
+}
+
+.gears-title {
+    position: absolute;
+    left: 761px;
+    bottom: 128px;
+    width: 196px;
+    text-align: center;
+}
+
+.rocket-title {
+    position: absolute;
+    right: 205px;
+    bottom: 128px;
+    width: 196px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
