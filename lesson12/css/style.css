@@ -253,6 +253,7 @@ nav a:hover {
     background-color: #e7f1f8;
     position: relative;
     overflow: hidden;
+    text-align: center;
 }
 
 .beautiful-team section {
@@ -274,14 +275,13 @@ nav a:hover {
 }
 
 .beautiful-team .mini-title {
-    margin: 25px auto 0;
+    margin: 25px 398px 0;
     width: 666px;
     font-size: 18.6px;
     line-height: 26px;
     font-weight: 400;
     letter-spacing: 0.02em;
     color: #3c4761;
-    text-align: center;
 }
 
 .beautiful-team .wrapper {
@@ -297,7 +297,6 @@ nav a:hover {
     display: inherit;
     max-width: 200px;
     flex-wrap: wrap;
-    text-align: center;
     justify-content: space-evenly;
 }
 
