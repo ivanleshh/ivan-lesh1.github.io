@@ -67,7 +67,7 @@ nav a:hover {
     color: #f7f3ea;
     width: 900px;
     margin: 239px auto 0;
-    
+
 }
 
 .button {
@@ -91,8 +91,8 @@ nav a:hover {
     color: #ffffff;
 }
 
-.button:hover  {
-    transform: scale(1.1,1.1);
+.button:hover {
+    transform: scale(1.1, 1.1);
     opacity: 75%;
 }
 
@@ -114,7 +114,7 @@ nav a:hover {
     text-align: center;
 }
 
-.line {
+.services .line {
     width: 87px;
     height: 4px;
     opacity: 0.14;
@@ -122,7 +122,7 @@ nav a:hover {
     margin: 21px 676px 0 677px;
 }
 
-.mini-title {
+.services .mini-title {
     margin: 23px 418px 0 419px;
     width: 605px;
     font-size: 18px;
@@ -248,14 +248,118 @@ nav a:hover {
     text-align: center;
 }
 
+.beautiful-team {
+    height: 914px;
+    background-color: #e7f1f8;
+    position: relative;
+    overflow: hidden;
+}
 
+.beautiful-team section {
+    font-size: 41.3px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #3c4761;
+    width: 612px;
+    margin: 119px 429px 0 430px;
+}
 
+.beautiful-team .line {
+    width: 87px;
+    height: 4px;
+    opacity: 0.74;
+    background-color: #bdd1df;
+    margin: 22px 676px 0 677px;
+}
 
+.beautiful-team .mini-title {
+    margin: 25px auto 0;
+    width: 666px;
+    font-size: 18.6px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #3c4761;
+    text-align: center;
+}
 
+.beautiful-team .wrapper {
+    display: flex;
+    width: 1040px;
+    position: absolute;
+    justify-content: space-between;
+    top: 297px;
+    left: 200px;
+}
 
+.beautiful-team .column {
+    display: inherit;
+    max-width: 200px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+}
 
+.beautiful-team .ava {
+    width: 200px;
+    height: 200px;
+    background-color: #878787;
+    border-radius: 50%;
+}
 
+.beautiful-team .name {
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #27283d;
+    margin: 41px auto 0;
+}
 
+.beautiful-team .specialty {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #30bae7;
+    margin: 15px 19px 0;
+}
 
+.beautiful-team .about {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    color: #3c4761;
+    margin: 26px 0 0;
+}
 
+.facebook {
+    background: url(img/facebook.png);
+    margin: 31px 0 0;
+    width: 32px;
+    height: 32px;
+}
 
+.twitter {
+    background: url(img/twitter.png);
+    margin: 31px 0 0;
+    width: 32px;
+    height: 32px;
+}
+
+.in {
+    background: url(img/in.png);
+    margin: 31px 0 0;
+    width: 32px;
+    height: 32px;
+}
+
+.email {
+    background: url(img/email.png);
+    margin: 31px 0 0;
+    width: 32px;
+    height: 32px;
+}
