@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    max-width: 170px;
+    height: 350px;
+    background: url(img/bg.jpg) no-repeat;
+    color: azure;
+    position: relative;
+    text-align: center;
+    font-family: 'Pacifico', sans-serif;
+}
+
+section {
+    padding: 5px;
+    border: azure 3px double;
+    border-radius: 20%;
+}
+
+h2 {
+    transition-duration: 1s;
+}
+
+h2:hover {
+    transform: scale(1.1) rotate(8deg);
+}
+
+.photo {
+    background: url(img/chel.jpg);
+    width: inherit;
+    height: 170px;
+    opacity: 50%;
+}
+
+.a1 a {
+    text-decoration: underline;
+    color: inherit;
+    margin: 10px;
+    animation-name: animation;
+    animation-duration: 1s;
+    position: absolute;
+    left: 10px;
+
+}
+
+.a2 a {
+    text-decoration: underline;
+    color: inherit;
+    margin: 10px;
+    animation-name: animation1;
+    animation-duration: 1s;
+    position: absolute;
+    right: 10px;
+}
+
+.a3 a {
+    text-decoration: underline;
+    color: inherit;
+    margin: 5px;
+    animation-name: animation;
+    animation-duration: 1s;
+    position: absolute;
+    left: 10px;
+    bottom: 40px;
+}
+
+.a4 a {
+    text-decoration: underline;
+    color: inherit;
+    margin: 5px;
+    animation-name: animation1;
+    animation-duration: 1s;
+    position: absolute;
+    right: 10px;
+    bottom: 40px;
+}
+
+a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 2px 2px;
+}
+
+footer {
+    position: absolute;
+    color: cadetblue;
+    bottom: 5px;
+    width: 170px;
+    background: black;
+    opacity: 75%;
+}
+
+@keyframes animation {
+    0% {
+        left: -100%;
+        opacity: 0%;
+    }
+    100% {
+        left: 5.5%;
+        opacity: 75%
+    }
+}
+
+@keyframes animation1 {
+    0% {
+        right: -100%;
+        opacity: 0%;
+    }
+    100% {
+        right: 5.5%;
+        opacity: 75%
+    }
+}
+
+
+
