@@ -284,11 +284,11 @@ nav a:hover {
     color: #3c4761;
 }
 
-.beautiful-team .wrapper {
+.beautiful-team .wrapper-beautiful-team {
     display: flex;
-    width: 1040px;
     position: absolute;
     justify-content: space-between;
+    width: 72.2%;
     top: 297px;
     left: 200px;
 }
